@@ -1,0 +1,38 @@
+{
+  "name": "html",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "prettier-format": "prettier --config .prettierrc '**/*.tsx' --write"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.10.4",
+    "@emotion/styled": "^11.10.4",
+    "@material-ui/core": "^4.12.4",
+    "@material-ui/icons": "^4.11.3",
+    "@material-ui/lab": "^4.0.0-alpha.61",
+    "@mui/icons-material": "^5.10.9",
+    "@mui/material": "^5.10.7",
+    "@types/react-calendar": "^3.5.3",
+    "@types/styled-components": "^5.1.26",
+    "next": "12.3.1",
+    "next-transpile-modules": "^10.0.0",
+    "prettier": "^2.7.1",
+    "react": "18.2.0",
+    "react-calendar": "^3.9.0",
+    "react-dom": "18.2.0",
+    "styled-components": "^5.3.6"
+  },
+  "devDependencies": {
+    "@types/node": "18.7.23",
+    "@types/react": "18.0.21",
+    "@types/react-dom": "18.0.6",
+    "eslint": "8.24.0",
+    "eslint-config-next": "12.3.1",
+    "typescript": "4.8.3"
+  }
+}

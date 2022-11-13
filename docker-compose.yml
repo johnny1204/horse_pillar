@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  app:
+    build: ./
+    volumes:
+      - ./src:/var/www/html
+    command: sh -c "yarn run dev"
+    ports:
+      - '3001:3000'
