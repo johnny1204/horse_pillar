@@ -1,0 +1,1 @@
+export const GetRaceNumbers = [...Array(12).keys()].map((i, k) => `${i + 1}R`);
