@@ -1,3 +1,4 @@
 .vscode
 ./src/.next
 ./src/yarn-error.log
+.DS_STORE
